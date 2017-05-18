@@ -21,4 +21,9 @@ export class AppComponent {
   		'validate' : ''
   	});
   }
+
+  addPost(post) {
+  	this.description = post.description;
+  	this.name = post.name;
+  }
 }
