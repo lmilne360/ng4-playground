@@ -11,6 +11,7 @@ export class AppComponent {
   post:any;					// A property for our submitted form
   description:string = '';
   name:string = '';
+  titleAlert:string= 'This field is required'
 
 
   constructor(private fb: FormBuilder){
